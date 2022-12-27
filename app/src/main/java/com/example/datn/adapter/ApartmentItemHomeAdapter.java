@@ -95,7 +95,7 @@ public class ApartmentItemHomeAdapter extends RecyclerView.Adapter<RecyclerView.
             Glide.with(context).load(this.list.get(position).getPhotos().get(0)).centerCrop().placeholder(
                     R.drawable.animation_loading).error(R.drawable.ic_error_img).into(viewHolder.img_rcv_itemhome);
 //        Drawable drawable = holder.img_rcv_itemhome.getDrawable();
-//        if (drawable instanceof AnimatedVectorDrawableCompat) {
+//        if (drawblea instanceof AnimatedVectorDrawableCompat) {
 //            AnimatedVectorDrawableCompat avd = (AnimatedVectorDrawableCompat) drawable;
 //            avd.start();
 //        }else if (drawable instanceof  AnimatedVectorDrawable){
